@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 """
 Python script that fetches https://alu-intranet.hbtn.io/status
 """
@@ -12,4 +12,4 @@ if __name__ == '__main__':
     res = requests.get(url)
     print("Body response:")
     print("\t- type: {}".format(type(res.text)))
-    print("\t- content: {}".format(res.text))  
+    print("\t- content: {}".format(res.text)) 
